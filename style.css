@@ -441,14 +441,14 @@ img {
 .badge-2 {
     top: 20%;
     right: -12%;
-    animation-delay: 0.8s;
+    animation-delay: 0.25s;
 }
 
 /* Badge 3 - Bottom Right (4 o'clock) */
 .badge-3 {
     bottom: 20%;
     right: -20%;
-    animation-delay: 1.6s;
+    animation-delay: 0.5s;
 }
 
 /* Badge 4 - Bottom (6 o'clock) */
@@ -456,34 +456,21 @@ img {
     bottom: -8%;
     left: 50%;
     transform: translateX(-50%);
-    animation-delay: 2.4s;
+    animation-delay: 1s;
 }
 
 /* Badge 5 - Bottom Left (8 o'clock) */
 .badge-5 {
     bottom: 20%;
     left: -12%;
-    animation-delay: 3.2s;
+    animation-delay: 1.5s;
 }
 
 /* Badge 6 - Top Left (10 o'clock) */
 .badge-6 {
     top: 20%;
     left: -12%;
-    animation-delay: 4.0s;
-}
-
-/* Badge 7 - Center (highlighted) */
-.badge-7 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation-delay: 4.8s;
-    opacity: 0.8;
-    font-size: 0.65rem;
-    background: rgba(108, 99, 255, 0.15);
-    border-color: rgba(108, 99, 255, 0.3);
-    animation: pulse 3s ease-in-out infinite;
+    animation-delay: 2.0s;
 }
 
 /* Float animation for orbiting badges */
